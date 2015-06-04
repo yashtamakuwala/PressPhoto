@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func experiment()
+    {
+        let nextController = UIImagePickerController()
+        self.presentViewController(nextController, animated: true, completion: nil)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
